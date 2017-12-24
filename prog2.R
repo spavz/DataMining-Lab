@@ -1,0 +1,15 @@
+data(iris)
+head(iris)
+names(iris)
+attributes(iris)
+
+#print(iris$Sepal.Length)
+quantile(iris$Sepal.Length)
+var(iris$Sepal.Length)
+hist(iris$Sepal.Length)
+plot(density(iris$Sepal.Length))
+
+#print(head(iris$Species))
+table(iris$Species)
+pie(table(iris$Species))
+barplot(table(iris$Species))
