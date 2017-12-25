@@ -38,7 +38,7 @@ public class Demo3 {
 		int table[] = new int[N];
 
 		try {
-			BufferedReader br = new BufferedReader(new FileReader(new File("data2.dat")));
+			BufferedReader br = new BufferedReader(new FileReader(new File("data.dat")));
 			for (int i = 0; i < N; i++) {
 				String[] singleLine = br.readLine().split("\t");
 				for(int j=0; j< singleLine.length; j++) 
